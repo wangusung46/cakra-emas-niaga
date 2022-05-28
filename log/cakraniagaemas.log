@@ -1,0 +1,1786 @@
+DEBUG   2022-05-28 12:35:48,524 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - 1
+DEBUG   2022-05-28 12:35:48,536 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@58c6c53c: 
+select
+	*
+from
+	user
+where
+	username = '1'
+	and status = 'ON';
+DEBUG   2022-05-28 12:35:50,084 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - 1
+DEBUG   2022-05-28 12:35:50,084 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@5224c748: 
+select
+	*
+from
+	user
+where
+	username = '1'
+	and status = 'ON';
+DEBUG   2022-05-28 12:35:50,084 [AWT-EventQueue-0] cakraemasniaga.jdbc.department.DepartmentJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@1be9f522: 
+select
+	exists(
+	select
+		*
+	from
+		department
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:35:50,100 [AWT-EventQueue-0] cakraemasniaga.jdbc.position.PositionJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@b1a7333: 
+select
+	exists(
+	select
+		*
+	from
+		position
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:35:50,100 [AWT-EventQueue-0] cakraemasniaga.jdbc.education.EducationJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@c27b9b1: 
+select
+	exists(
+	select
+		*
+	from
+		education
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:35:50,100 [AWT-EventQueue-0] cakraemasniaga.jdbc.project.ProjectJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@2cdce31a: 
+select
+	exists(
+	select
+		*
+	from
+		project
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:35:50,100 [AWT-EventQueue-0] cakraemasniaga.jdbc.budget.BudgetJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@5d4f3f74: 
+select
+	exists(
+	select
+		*
+	from
+		budget
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:35:50,100 [AWT-EventQueue-0] cakraemasniaga.jdbc.classification.ClassificationJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@5ea5f916: 
+select
+	exists(
+	select
+		*
+	from
+		classification
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:35:50,100 [AWT-EventQueue-0] cakraemasniaga.jdbc.paymentfunction.PaymentFunctionJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@31a14d30: 
+select
+	exists(
+	select
+		*
+	from
+		payment_function
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:35:50,100 [AWT-EventQueue-0] cakraemasniaga.jdbc.payment.PaymentJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@5b6f308: 
+select
+	exists(
+	select
+		*
+	from
+		payment
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:35:50,100 [AWT-EventQueue-0] cakraemasniaga.jdbc.project.ProjectJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@2049fb45: 
+select
+	exists(
+	select
+		*
+	from
+		project
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:35:50,100 [AWT-EventQueue-0] cakraemasniaga.jdbc.budget.BudgetJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@3093cf3d: 
+select
+	exists(
+	select
+		*
+	from
+		budget
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:35:50,100 [AWT-EventQueue-0] cakraemasniaga.jdbc.classification.ClassificationJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@6b16a621: 
+select
+	exists(
+	select
+		*
+	from
+		classification
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:35:50,100 [AWT-EventQueue-0] cakraemasniaga.jdbc.paymentfunction.PaymentFunctionJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@65ba96a6: 
+select
+	exists(
+	select
+		*
+	from
+		payment_function
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:35:50,100 [AWT-EventQueue-0] cakraemasniaga.jdbc.payment.PaymentJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@16229120: 
+select
+	exists(
+	select
+		*
+	from
+		payment
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:35:50,100 [AWT-EventQueue-0] cakraemasniaga.jdbc.bank.BankJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@63c5a33d: 
+select
+	exists(
+	select
+		*
+	from
+		bank
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:35:50,100 [AWT-EventQueue-0] cakraemasniaga.jdbc.employee.EmployeeJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@27b738cd: 
+select
+	exists(
+	select
+		*
+	from
+		employee
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:35:50,100 [AWT-EventQueue-0] cakraemasniaga.jdbc.pv.PVJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@6ce1f3bf: 
+select
+	exists(
+	select
+		*
+	from
+		request) exist;
+DEBUG   2022-05-28 12:35:50,100 [AWT-EventQueue-0] cakraemasniaga.jdbc.salary.SalaryJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@2bbcac19: 
+select
+	exists(
+	select
+		*
+	from
+		transaction_salary) exist;
+DEBUG   2022-05-28 12:35:50,100 [AWT-EventQueue-0] cakraemasniaga.jdbc.warehouse.WarehouseJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@71ed63db: 
+select
+	exists(
+	select
+		*
+	from
+		warehouse
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:35:50,100 [AWT-EventQueue-0] cakraemasniaga.jdbc.category.CategoryJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@16dc3fc7: 
+select
+	exists(
+	select
+		*
+	from
+		category
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:35:50,100 [AWT-EventQueue-0] cakraemasniaga.jdbc.item.ItemJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@ef4ba50: 
+select
+	exists(
+	select
+		*
+	from
+		item
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:35:50,100 [AWT-EventQueue-0] cakraemasniaga.jdbc.stock.StockJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@55a62527: 
+select
+	exists(
+	select
+		*
+	from
+		stock
+	where
+		status = 'IN') exist;
+DEBUG   2022-05-28 12:35:50,100 [AWT-EventQueue-0] cakraemasniaga.jdbc.stock.StockJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@5c856ea: 
+select
+	exists(
+	select
+		*
+	from
+		stock) exist;
+DEBUG   2022-05-28 12:35:50,100 [AWT-EventQueue-0] cakraemasniaga.jdbc.project.ProjectJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@5b4fc968: 
+select
+	exists(
+	select
+		*
+	from
+		project
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:39:59,961 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - 1
+DEBUG   2022-05-28 12:39:59,973 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@6be163e1: 
+select
+	*
+from
+	user
+where
+	username = '1'
+	and status = 'ON';
+DEBUG   2022-05-28 12:40:01,429 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - 1
+DEBUG   2022-05-28 12:40:01,429 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@32d878aa: 
+select
+	*
+from
+	user
+where
+	username = '1'
+	and status = 'ON';
+DEBUG   2022-05-28 12:40:01,429 [AWT-EventQueue-0] cakraemasniaga.jdbc.department.DepartmentJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@240e7e73: 
+select
+	exists(
+	select
+		*
+	from
+		department
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:40:01,429 [AWT-EventQueue-0] cakraemasniaga.jdbc.position.PositionJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@5224c748: 
+select
+	exists(
+	select
+		*
+	from
+		position
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:40:01,429 [AWT-EventQueue-0] cakraemasniaga.jdbc.education.EducationJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@1be9f522: 
+select
+	exists(
+	select
+		*
+	from
+		education
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:40:01,429 [AWT-EventQueue-0] cakraemasniaga.jdbc.project.ProjectJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@b1a7333: 
+select
+	exists(
+	select
+		*
+	from
+		project
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:40:01,429 [AWT-EventQueue-0] cakraemasniaga.jdbc.budget.BudgetJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@c27b9b1: 
+select
+	exists(
+	select
+		*
+	from
+		budget
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:40:01,429 [AWT-EventQueue-0] cakraemasniaga.jdbc.classification.ClassificationJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@2cdce31a: 
+select
+	exists(
+	select
+		*
+	from
+		classification
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:40:01,429 [AWT-EventQueue-0] cakraemasniaga.jdbc.paymentfunction.PaymentFunctionJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@5d4f3f74: 
+select
+	exists(
+	select
+		*
+	from
+		payment_function
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:40:01,429 [AWT-EventQueue-0] cakraemasniaga.jdbc.payment.PaymentJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@5ea5f916: 
+select
+	exists(
+	select
+		*
+	from
+		payment
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:40:01,429 [AWT-EventQueue-0] cakraemasniaga.jdbc.project.ProjectJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@31a14d30: 
+select
+	exists(
+	select
+		*
+	from
+		project
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:40:01,429 [AWT-EventQueue-0] cakraemasniaga.jdbc.budget.BudgetJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@5b6f308: 
+select
+	exists(
+	select
+		*
+	from
+		budget
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:40:01,445 [AWT-EventQueue-0] cakraemasniaga.jdbc.classification.ClassificationJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@28f42d7: 
+select
+	exists(
+	select
+		*
+	from
+		classification
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:40:01,445 [AWT-EventQueue-0] cakraemasniaga.jdbc.paymentfunction.PaymentFunctionJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@7c0b9875: 
+select
+	exists(
+	select
+		*
+	from
+		payment_function
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:40:01,445 [AWT-EventQueue-0] cakraemasniaga.jdbc.payment.PaymentJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@6b16a621: 
+select
+	exists(
+	select
+		*
+	from
+		payment
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:40:01,445 [AWT-EventQueue-0] cakraemasniaga.jdbc.bank.BankJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@16229120: 
+select
+	exists(
+	select
+		*
+	from
+		bank
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:40:01,445 [AWT-EventQueue-0] cakraemasniaga.jdbc.employee.EmployeeJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@71aaec01: 
+select
+	exists(
+	select
+		*
+	from
+		employee
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:40:01,445 [AWT-EventQueue-0] cakraemasniaga.jdbc.pv.PVJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@63c5a33d: 
+select
+	exists(
+	select
+		*
+	from
+		request) exist;
+DEBUG   2022-05-28 12:40:01,445 [AWT-EventQueue-0] cakraemasniaga.jdbc.salary.SalaryJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@27b738cd: 
+select
+	exists(
+	select
+		*
+	from
+		transaction_salary) exist;
+DEBUG   2022-05-28 12:40:01,445 [AWT-EventQueue-0] cakraemasniaga.jdbc.warehouse.WarehouseJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@6ce1f3bf: 
+select
+	exists(
+	select
+		*
+	from
+		warehouse
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:40:01,445 [AWT-EventQueue-0] cakraemasniaga.jdbc.category.CategoryJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@2bbcac19: 
+select
+	exists(
+	select
+		*
+	from
+		category
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:40:01,445 [AWT-EventQueue-0] cakraemasniaga.jdbc.item.ItemJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@71ed63db: 
+select
+	exists(
+	select
+		*
+	from
+		item
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:40:01,445 [AWT-EventQueue-0] cakraemasniaga.jdbc.stock.StockJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@16dc3fc7: 
+select
+	exists(
+	select
+		*
+	from
+		stock
+	where
+		status = 'IN') exist;
+DEBUG   2022-05-28 12:40:01,445 [AWT-EventQueue-0] cakraemasniaga.jdbc.stock.StockJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@ef4ba50: 
+select
+	exists(
+	select
+		*
+	from
+		stock) exist;
+DEBUG   2022-05-28 12:40:01,445 [AWT-EventQueue-0] cakraemasniaga.jdbc.project.ProjectJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@55a62527: 
+select
+	exists(
+	select
+		*
+	from
+		project
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:28,665 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - 1
+DEBUG   2022-05-28 12:41:28,677 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@6be163e1: 
+select
+	*
+from
+	user
+where
+	username = '1'
+	and status = 'ON';
+DEBUG   2022-05-28 12:41:30,232 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - 1
+DEBUG   2022-05-28 12:41:30,232 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@32d878aa: 
+select
+	*
+from
+	user
+where
+	username = '1'
+	and status = 'ON';
+DEBUG   2022-05-28 12:41:30,232 [AWT-EventQueue-0] cakraemasniaga.jdbc.department.DepartmentJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@240e7e73: 
+select
+	exists(
+	select
+		*
+	from
+		department
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:30,232 [AWT-EventQueue-0] cakraemasniaga.jdbc.position.PositionJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@5224c748: 
+select
+	exists(
+	select
+		*
+	from
+		position
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:30,232 [AWT-EventQueue-0] cakraemasniaga.jdbc.education.EducationJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@1be9f522: 
+select
+	exists(
+	select
+		*
+	from
+		education
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:30,232 [AWT-EventQueue-0] cakraemasniaga.jdbc.project.ProjectJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@b1a7333: 
+select
+	exists(
+	select
+		*
+	from
+		project
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:30,248 [AWT-EventQueue-0] cakraemasniaga.jdbc.budget.BudgetJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@c27b9b1: 
+select
+	exists(
+	select
+		*
+	from
+		budget
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:30,248 [AWT-EventQueue-0] cakraemasniaga.jdbc.classification.ClassificationJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@2cdce31a: 
+select
+	exists(
+	select
+		*
+	from
+		classification
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:30,248 [AWT-EventQueue-0] cakraemasniaga.jdbc.paymentfunction.PaymentFunctionJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@5d4f3f74: 
+select
+	exists(
+	select
+		*
+	from
+		payment_function
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:30,248 [AWT-EventQueue-0] cakraemasniaga.jdbc.payment.PaymentJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@5ea5f916: 
+select
+	exists(
+	select
+		*
+	from
+		payment
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:30,248 [AWT-EventQueue-0] cakraemasniaga.jdbc.project.ProjectJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@31a14d30: 
+select
+	exists(
+	select
+		*
+	from
+		project
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:30,248 [AWT-EventQueue-0] cakraemasniaga.jdbc.budget.BudgetJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@5b6f308: 
+select
+	exists(
+	select
+		*
+	from
+		budget
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:30,248 [AWT-EventQueue-0] cakraemasniaga.jdbc.classification.ClassificationJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@28f42d7: 
+select
+	exists(
+	select
+		*
+	from
+		classification
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:30,248 [AWT-EventQueue-0] cakraemasniaga.jdbc.paymentfunction.PaymentFunctionJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@7c0b9875: 
+select
+	exists(
+	select
+		*
+	from
+		payment_function
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:30,248 [AWT-EventQueue-0] cakraemasniaga.jdbc.payment.PaymentJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@6b16a621: 
+select
+	exists(
+	select
+		*
+	from
+		payment
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:30,248 [AWT-EventQueue-0] cakraemasniaga.jdbc.bank.BankJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@16229120: 
+select
+	exists(
+	select
+		*
+	from
+		bank
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:30,248 [AWT-EventQueue-0] cakraemasniaga.jdbc.employee.EmployeeJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@71aaec01: 
+select
+	exists(
+	select
+		*
+	from
+		employee
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:30,248 [AWT-EventQueue-0] cakraemasniaga.jdbc.pv.PVJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@63c5a33d: 
+select
+	exists(
+	select
+		*
+	from
+		request) exist;
+DEBUG   2022-05-28 12:41:30,248 [AWT-EventQueue-0] cakraemasniaga.jdbc.salary.SalaryJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@27b738cd: 
+select
+	exists(
+	select
+		*
+	from
+		transaction_salary) exist;
+DEBUG   2022-05-28 12:41:30,248 [AWT-EventQueue-0] cakraemasniaga.jdbc.warehouse.WarehouseJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@6ce1f3bf: 
+select
+	exists(
+	select
+		*
+	from
+		warehouse
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:30,248 [AWT-EventQueue-0] cakraemasniaga.jdbc.category.CategoryJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@2bbcac19: 
+select
+	exists(
+	select
+		*
+	from
+		category
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:30,248 [AWT-EventQueue-0] cakraemasniaga.jdbc.item.ItemJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@71ed63db: 
+select
+	exists(
+	select
+		*
+	from
+		item
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:30,248 [AWT-EventQueue-0] cakraemasniaga.jdbc.stock.StockJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@16dc3fc7: 
+select
+	exists(
+	select
+		*
+	from
+		stock
+	where
+		status = 'IN') exist;
+DEBUG   2022-05-28 12:41:30,248 [AWT-EventQueue-0] cakraemasniaga.jdbc.stock.StockJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@ef4ba50: 
+select
+	exists(
+	select
+		*
+	from
+		stock) exist;
+DEBUG   2022-05-28 12:41:30,248 [AWT-EventQueue-0] cakraemasniaga.jdbc.project.ProjectJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@55a62527: 
+select
+	exists(
+	select
+		*
+	from
+		project
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:55,225 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - 1
+DEBUG   2022-05-28 12:41:55,236 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@6be163e1: 
+select
+	*
+from
+	user
+where
+	username = '1'
+	and status = 'ON';
+DEBUG   2022-05-28 12:41:56,592 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - 1
+DEBUG   2022-05-28 12:41:56,592 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@32d878aa: 
+select
+	*
+from
+	user
+where
+	username = '1'
+	and status = 'ON';
+DEBUG   2022-05-28 12:41:56,592 [AWT-EventQueue-0] cakraemasniaga.jdbc.department.DepartmentJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@240e7e73: 
+select
+	exists(
+	select
+		*
+	from
+		department
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:56,592 [AWT-EventQueue-0] cakraemasniaga.jdbc.position.PositionJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@5224c748: 
+select
+	exists(
+	select
+		*
+	from
+		position
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:56,592 [AWT-EventQueue-0] cakraemasniaga.jdbc.education.EducationJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@1be9f522: 
+select
+	exists(
+	select
+		*
+	from
+		education
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:56,592 [AWT-EventQueue-0] cakraemasniaga.jdbc.project.ProjectJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@b1a7333: 
+select
+	exists(
+	select
+		*
+	from
+		project
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:56,592 [AWT-EventQueue-0] cakraemasniaga.jdbc.budget.BudgetJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@c27b9b1: 
+select
+	exists(
+	select
+		*
+	from
+		budget
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:56,592 [AWT-EventQueue-0] cakraemasniaga.jdbc.classification.ClassificationJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@2cdce31a: 
+select
+	exists(
+	select
+		*
+	from
+		classification
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:56,592 [AWT-EventQueue-0] cakraemasniaga.jdbc.paymentfunction.PaymentFunctionJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@5d4f3f74: 
+select
+	exists(
+	select
+		*
+	from
+		payment_function
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:56,592 [AWT-EventQueue-0] cakraemasniaga.jdbc.payment.PaymentJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@5ea5f916: 
+select
+	exists(
+	select
+		*
+	from
+		payment
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:56,592 [AWT-EventQueue-0] cakraemasniaga.jdbc.project.ProjectJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@31a14d30: 
+select
+	exists(
+	select
+		*
+	from
+		project
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:56,608 [AWT-EventQueue-0] cakraemasniaga.jdbc.budget.BudgetJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@5b6f308: 
+select
+	exists(
+	select
+		*
+	from
+		budget
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:56,608 [AWT-EventQueue-0] cakraemasniaga.jdbc.classification.ClassificationJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@28f42d7: 
+select
+	exists(
+	select
+		*
+	from
+		classification
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:56,608 [AWT-EventQueue-0] cakraemasniaga.jdbc.paymentfunction.PaymentFunctionJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@7c0b9875: 
+select
+	exists(
+	select
+		*
+	from
+		payment_function
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:56,608 [AWT-EventQueue-0] cakraemasniaga.jdbc.payment.PaymentJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@6b16a621: 
+select
+	exists(
+	select
+		*
+	from
+		payment
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:56,608 [AWT-EventQueue-0] cakraemasniaga.jdbc.bank.BankJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@16229120: 
+select
+	exists(
+	select
+		*
+	from
+		bank
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:56,608 [AWT-EventQueue-0] cakraemasniaga.jdbc.employee.EmployeeJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@71aaec01: 
+select
+	exists(
+	select
+		*
+	from
+		employee
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:56,608 [AWT-EventQueue-0] cakraemasniaga.jdbc.pv.PVJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@63c5a33d: 
+select
+	exists(
+	select
+		*
+	from
+		request) exist;
+DEBUG   2022-05-28 12:41:56,608 [AWT-EventQueue-0] cakraemasniaga.jdbc.salary.SalaryJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@27b738cd: 
+select
+	exists(
+	select
+		*
+	from
+		transaction_salary) exist;
+DEBUG   2022-05-28 12:41:56,608 [AWT-EventQueue-0] cakraemasniaga.jdbc.warehouse.WarehouseJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@6ce1f3bf: 
+select
+	exists(
+	select
+		*
+	from
+		warehouse
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:56,608 [AWT-EventQueue-0] cakraemasniaga.jdbc.category.CategoryJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@2bbcac19: 
+select
+	exists(
+	select
+		*
+	from
+		category
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:56,608 [AWT-EventQueue-0] cakraemasniaga.jdbc.item.ItemJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@71ed63db: 
+select
+	exists(
+	select
+		*
+	from
+		item
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:41:56,608 [AWT-EventQueue-0] cakraemasniaga.jdbc.stock.StockJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@16dc3fc7: 
+select
+	exists(
+	select
+		*
+	from
+		stock
+	where
+		status = 'IN') exist;
+DEBUG   2022-05-28 12:41:56,608 [AWT-EventQueue-0] cakraemasniaga.jdbc.stock.StockJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@ef4ba50: 
+select
+	exists(
+	select
+		*
+	from
+		stock) exist;
+DEBUG   2022-05-28 12:41:56,608 [AWT-EventQueue-0] cakraemasniaga.jdbc.project.ProjectJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@55a62527: 
+select
+	exists(
+	select
+		*
+	from
+		project
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:43,770 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - 1
+INFO    2022-05-28 12:52:43,782 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@385857bd: 
+select
+	*
+from
+	user
+where
+	username = '1'
+	and status = 'ON';
+INFO    2022-05-28 12:52:45,092 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - 1
+INFO    2022-05-28 12:52:45,092 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@2348f6a3: 
+select
+	*
+from
+	user
+where
+	username = '1'
+	and status = 'ON';
+INFO    2022-05-28 12:52:45,092 [AWT-EventQueue-0] cakraemasniaga.jdbc.department.DepartmentJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@4c43e73f: 
+select
+	exists(
+	select
+		*
+	from
+		department
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:45,092 [AWT-EventQueue-0] cakraemasniaga.jdbc.position.PositionJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@7f70e512: 
+select
+	exists(
+	select
+		*
+	from
+		position
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:45,092 [AWT-EventQueue-0] cakraemasniaga.jdbc.education.EducationJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@58331770: 
+select
+	exists(
+	select
+		*
+	from
+		education
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:45,092 [AWT-EventQueue-0] cakraemasniaga.jdbc.project.ProjectJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@74879552: 
+select
+	exists(
+	select
+		*
+	from
+		project
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:45,092 [AWT-EventQueue-0] cakraemasniaga.jdbc.budget.BudgetJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@6c94f966: 
+select
+	exists(
+	select
+		*
+	from
+		budget
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:45,092 [AWT-EventQueue-0] cakraemasniaga.jdbc.classification.ClassificationJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@15aa0c8a: 
+select
+	exists(
+	select
+		*
+	from
+		classification
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:45,092 [AWT-EventQueue-0] cakraemasniaga.jdbc.paymentfunction.PaymentFunctionJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@15b1746d: 
+select
+	exists(
+	select
+		*
+	from
+		payment_function
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:45,092 [AWT-EventQueue-0] cakraemasniaga.jdbc.payment.PaymentJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@742ad9d2: 
+select
+	exists(
+	select
+		*
+	from
+		payment
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:45,092 [AWT-EventQueue-0] cakraemasniaga.jdbc.project.ProjectJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@1bbaedcf: 
+select
+	exists(
+	select
+		*
+	from
+		project
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:45,092 [AWT-EventQueue-0] cakraemasniaga.jdbc.budget.BudgetJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@28f42d7: 
+select
+	exists(
+	select
+		*
+	from
+		budget
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:45,107 [AWT-EventQueue-0] cakraemasniaga.jdbc.classification.ClassificationJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@1377c762: 
+select
+	exists(
+	select
+		*
+	from
+		classification
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:45,107 [AWT-EventQueue-0] cakraemasniaga.jdbc.paymentfunction.PaymentFunctionJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@45d27659: 
+select
+	exists(
+	select
+		*
+	from
+		payment_function
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:45,107 [AWT-EventQueue-0] cakraemasniaga.jdbc.payment.PaymentJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@485b01a4: 
+select
+	exists(
+	select
+		*
+	from
+		payment
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:45,107 [AWT-EventQueue-0] cakraemasniaga.jdbc.bank.BankJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@61ec95b1: 
+select
+	exists(
+	select
+		*
+	from
+		bank
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:45,107 [AWT-EventQueue-0] cakraemasniaga.jdbc.employee.EmployeeJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@15b0603: 
+select
+	exists(
+	select
+		*
+	from
+		employee
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:45,107 [AWT-EventQueue-0] cakraemasniaga.jdbc.pv.PVJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@22f37097: 
+select
+	exists(
+	select
+		*
+	from
+		request) exist;
+INFO    2022-05-28 12:52:45,107 [AWT-EventQueue-0] cakraemasniaga.jdbc.salary.SalaryJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@35d38b3e: 
+select
+	exists(
+	select
+		*
+	from
+		transaction_salary) exist;
+INFO    2022-05-28 12:52:45,107 [AWT-EventQueue-0] cakraemasniaga.jdbc.warehouse.WarehouseJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@12f21631: 
+select
+	exists(
+	select
+		*
+	from
+		warehouse
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:45,107 [AWT-EventQueue-0] cakraemasniaga.jdbc.category.CategoryJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@58ce9ca3: 
+select
+	exists(
+	select
+		*
+	from
+		category
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:45,107 [AWT-EventQueue-0] cakraemasniaga.jdbc.item.ItemJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@141de0b3: 
+select
+	exists(
+	select
+		*
+	from
+		item
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:45,107 [AWT-EventQueue-0] cakraemasniaga.jdbc.stock.StockJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@227304a9: 
+select
+	exists(
+	select
+		*
+	from
+		stock
+	where
+		status = 'IN') exist;
+INFO    2022-05-28 12:52:45,107 [AWT-EventQueue-0] cakraemasniaga.jdbc.stock.StockJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@2ec55f58: 
+select
+	exists(
+	select
+		*
+	from
+		stock) exist;
+INFO    2022-05-28 12:52:45,107 [AWT-EventQueue-0] cakraemasniaga.jdbc.project.ProjectJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@3f245cb6: 
+select
+	exists(
+	select
+		*
+	from
+		project
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:57,459 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - 1
+INFO    2022-05-28 12:52:57,471 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@6be163e1: 
+select
+	*
+from
+	user
+where
+	username = '1'
+	and status = 'ON';
+INFO    2022-05-28 12:52:58,987 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - 1
+INFO    2022-05-28 12:52:59,003 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@6e2d2d9c: 
+select
+	*
+from
+	user
+where
+	username = '1'
+	and status = 'ON';
+INFO    2022-05-28 12:52:59,003 [AWT-EventQueue-0] cakraemasniaga.jdbc.department.DepartmentJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@ce25360: 
+select
+	exists(
+	select
+		*
+	from
+		department
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:59,003 [AWT-EventQueue-0] cakraemasniaga.jdbc.position.PositionJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@2348f6a3: 
+select
+	exists(
+	select
+		*
+	from
+		position
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:59,003 [AWT-EventQueue-0] cakraemasniaga.jdbc.education.EducationJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@4c43e73f: 
+select
+	exists(
+	select
+		*
+	from
+		education
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:59,003 [AWT-EventQueue-0] cakraemasniaga.jdbc.project.ProjectJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@7f70e512: 
+select
+	exists(
+	select
+		*
+	from
+		project
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:59,003 [AWT-EventQueue-0] cakraemasniaga.jdbc.budget.BudgetJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@58331770: 
+select
+	exists(
+	select
+		*
+	from
+		budget
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:59,003 [AWT-EventQueue-0] cakraemasniaga.jdbc.classification.ClassificationJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@74879552: 
+select
+	exists(
+	select
+		*
+	from
+		classification
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:59,003 [AWT-EventQueue-0] cakraemasniaga.jdbc.paymentfunction.PaymentFunctionJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@6c94f966: 
+select
+	exists(
+	select
+		*
+	from
+		payment_function
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:59,003 [AWT-EventQueue-0] cakraemasniaga.jdbc.payment.PaymentJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@15aa0c8a: 
+select
+	exists(
+	select
+		*
+	from
+		payment
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:59,003 [AWT-EventQueue-0] cakraemasniaga.jdbc.project.ProjectJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@15b1746d: 
+select
+	exists(
+	select
+		*
+	from
+		project
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:59,003 [AWT-EventQueue-0] cakraemasniaga.jdbc.budget.BudgetJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@742ad9d2: 
+select
+	exists(
+	select
+		*
+	from
+		budget
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:59,003 [AWT-EventQueue-0] cakraemasniaga.jdbc.classification.ClassificationJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@2049fb45: 
+select
+	exists(
+	select
+		*
+	from
+		classification
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:59,003 [AWT-EventQueue-0] cakraemasniaga.jdbc.paymentfunction.PaymentFunctionJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@3093cf3d: 
+select
+	exists(
+	select
+		*
+	from
+		payment_function
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:59,003 [AWT-EventQueue-0] cakraemasniaga.jdbc.payment.PaymentJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@1377c762: 
+select
+	exists(
+	select
+		*
+	from
+		payment
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:59,003 [AWT-EventQueue-0] cakraemasniaga.jdbc.bank.BankJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@485b01a4: 
+select
+	exists(
+	select
+		*
+	from
+		bank
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:59,003 [AWT-EventQueue-0] cakraemasniaga.jdbc.employee.EmployeeJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@40145d03: 
+select
+	exists(
+	select
+		*
+	from
+		employee
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:59,003 [AWT-EventQueue-0] cakraemasniaga.jdbc.pv.PVJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@61ec95b1: 
+select
+	exists(
+	select
+		*
+	from
+		request) exist;
+INFO    2022-05-28 12:52:59,003 [AWT-EventQueue-0] cakraemasniaga.jdbc.salary.SalaryJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@15b0603: 
+select
+	exists(
+	select
+		*
+	from
+		transaction_salary) exist;
+INFO    2022-05-28 12:52:59,003 [AWT-EventQueue-0] cakraemasniaga.jdbc.warehouse.WarehouseJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@22f37097: 
+select
+	exists(
+	select
+		*
+	from
+		warehouse
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:59,003 [AWT-EventQueue-0] cakraemasniaga.jdbc.category.CategoryJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@35d38b3e: 
+select
+	exists(
+	select
+		*
+	from
+		category
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:59,003 [AWT-EventQueue-0] cakraemasniaga.jdbc.item.ItemJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@12f21631: 
+select
+	exists(
+	select
+		*
+	from
+		item
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:52:59,003 [AWT-EventQueue-0] cakraemasniaga.jdbc.stock.StockJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@58ce9ca3: 
+select
+	exists(
+	select
+		*
+	from
+		stock
+	where
+		status = 'IN') exist;
+INFO    2022-05-28 12:52:59,003 [AWT-EventQueue-0] cakraemasniaga.jdbc.stock.StockJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@141de0b3: 
+select
+	exists(
+	select
+		*
+	from
+		stock) exist;
+INFO    2022-05-28 12:52:59,003 [AWT-EventQueue-0] cakraemasniaga.jdbc.project.ProjectJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@227304a9: 
+select
+	exists(
+	select
+		*
+	from
+		project
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:53:14,442 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - 1
+INFO    2022-05-28 12:53:14,454 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@212caaad: 
+select
+	*
+from
+	user
+where
+	username = '1'
+	and status = 'ON';
+INFO    2022-05-28 12:53:15,834 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - 1
+INFO    2022-05-28 12:53:15,834 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@240e7e73: 
+select
+	*
+from
+	user
+where
+	username = '1'
+	and status = 'ON';
+INFO    2022-05-28 12:53:15,834 [AWT-EventQueue-0] cakraemasniaga.jdbc.department.DepartmentJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@5224c748: 
+select
+	exists(
+	select
+		*
+	from
+		department
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:53:15,834 [AWT-EventQueue-0] cakraemasniaga.jdbc.position.PositionJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@1be9f522: 
+select
+	exists(
+	select
+		*
+	from
+		position
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:53:15,834 [AWT-EventQueue-0] cakraemasniaga.jdbc.education.EducationJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@b1a7333: 
+select
+	exists(
+	select
+		*
+	from
+		education
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:53:15,849 [AWT-EventQueue-0] cakraemasniaga.jdbc.project.ProjectJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@c27b9b1: 
+select
+	exists(
+	select
+		*
+	from
+		project
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:53:15,849 [AWT-EventQueue-0] cakraemasniaga.jdbc.budget.BudgetJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@2cdce31a: 
+select
+	exists(
+	select
+		*
+	from
+		budget
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:53:15,849 [AWT-EventQueue-0] cakraemasniaga.jdbc.classification.ClassificationJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@5d4f3f74: 
+select
+	exists(
+	select
+		*
+	from
+		classification
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:53:15,849 [AWT-EventQueue-0] cakraemasniaga.jdbc.paymentfunction.PaymentFunctionJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@5ea5f916: 
+select
+	exists(
+	select
+		*
+	from
+		payment_function
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:53:15,849 [AWT-EventQueue-0] cakraemasniaga.jdbc.payment.PaymentJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@31a14d30: 
+select
+	exists(
+	select
+		*
+	from
+		payment
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:53:15,849 [AWT-EventQueue-0] cakraemasniaga.jdbc.project.ProjectJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@5b6f308: 
+select
+	exists(
+	select
+		*
+	from
+		project
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:53:15,849 [AWT-EventQueue-0] cakraemasniaga.jdbc.budget.BudgetJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@2049fb45: 
+select
+	exists(
+	select
+		*
+	from
+		budget
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:53:15,849 [AWT-EventQueue-0] cakraemasniaga.jdbc.classification.ClassificationJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@7c0b9875: 
+select
+	exists(
+	select
+		*
+	from
+		classification
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:53:15,849 [AWT-EventQueue-0] cakraemasniaga.jdbc.paymentfunction.PaymentFunctionJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@6b16a621: 
+select
+	exists(
+	select
+		*
+	from
+		payment_function
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:53:15,849 [AWT-EventQueue-0] cakraemasniaga.jdbc.payment.PaymentJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@65ba96a6: 
+select
+	exists(
+	select
+		*
+	from
+		payment
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:53:15,849 [AWT-EventQueue-0] cakraemasniaga.jdbc.bank.BankJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@71aaec01: 
+select
+	exists(
+	select
+		*
+	from
+		bank
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:53:15,849 [AWT-EventQueue-0] cakraemasniaga.jdbc.employee.EmployeeJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@63c5a33d: 
+select
+	exists(
+	select
+		*
+	from
+		employee
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:53:15,849 [AWT-EventQueue-0] cakraemasniaga.jdbc.pv.PVJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@27b738cd: 
+select
+	exists(
+	select
+		*
+	from
+		request) exist;
+INFO    2022-05-28 12:53:15,849 [AWT-EventQueue-0] cakraemasniaga.jdbc.salary.SalaryJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@6ce1f3bf: 
+select
+	exists(
+	select
+		*
+	from
+		transaction_salary) exist;
+INFO    2022-05-28 12:53:15,849 [AWT-EventQueue-0] cakraemasniaga.jdbc.warehouse.WarehouseJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@2bbcac19: 
+select
+	exists(
+	select
+		*
+	from
+		warehouse
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:53:15,849 [AWT-EventQueue-0] cakraemasniaga.jdbc.category.CategoryJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@71ed63db: 
+select
+	exists(
+	select
+		*
+	from
+		category
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:53:15,849 [AWT-EventQueue-0] cakraemasniaga.jdbc.item.ItemJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@16dc3fc7: 
+select
+	exists(
+	select
+		*
+	from
+		item
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:53:15,849 [AWT-EventQueue-0] cakraemasniaga.jdbc.stock.StockJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@ef4ba50: 
+select
+	exists(
+	select
+		*
+	from
+		stock
+	where
+		status = 'IN') exist;
+INFO    2022-05-28 12:53:15,849 [AWT-EventQueue-0] cakraemasniaga.jdbc.stock.StockJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@55a62527: 
+select
+	exists(
+	select
+		*
+	from
+		stock) exist;
+INFO    2022-05-28 12:53:15,849 [AWT-EventQueue-0] cakraemasniaga.jdbc.project.ProjectJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@5c856ea: 
+select
+	exists(
+	select
+		*
+	from
+		project
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:54:16,266 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - 1
+DEBUG   2022-05-28 12:54:16,278 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@5d889ca1: 
+select
+	*
+from
+	user
+where
+	username = '1'
+	and status = 'ON';
+DEBUG   2022-05-28 12:54:17,810 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - 1
+DEBUG   2022-05-28 12:54:17,810 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@6e2d2d9c: 
+select
+	*
+from
+	user
+where
+	username = '1'
+	and status = 'ON';
+DEBUG   2022-05-28 12:54:17,810 [AWT-EventQueue-0] cakraemasniaga.jdbc.department.DepartmentJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@ce25360: 
+select
+	exists(
+	select
+		*
+	from
+		department
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:54:17,810 [AWT-EventQueue-0] cakraemasniaga.jdbc.position.PositionJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@2348f6a3: 
+select
+	exists(
+	select
+		*
+	from
+		position
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:54:17,810 [AWT-EventQueue-0] cakraemasniaga.jdbc.education.EducationJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@4c43e73f: 
+select
+	exists(
+	select
+		*
+	from
+		education
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:54:17,810 [AWT-EventQueue-0] cakraemasniaga.jdbc.project.ProjectJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@7f70e512: 
+select
+	exists(
+	select
+		*
+	from
+		project
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:54:17,810 [AWT-EventQueue-0] cakraemasniaga.jdbc.budget.BudgetJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@58331770: 
+select
+	exists(
+	select
+		*
+	from
+		budget
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:54:17,810 [AWT-EventQueue-0] cakraemasniaga.jdbc.classification.ClassificationJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@74879552: 
+select
+	exists(
+	select
+		*
+	from
+		classification
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:54:17,810 [AWT-EventQueue-0] cakraemasniaga.jdbc.paymentfunction.PaymentFunctionJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@6c94f966: 
+select
+	exists(
+	select
+		*
+	from
+		payment_function
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:54:17,810 [AWT-EventQueue-0] cakraemasniaga.jdbc.payment.PaymentJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@15aa0c8a: 
+select
+	exists(
+	select
+		*
+	from
+		payment
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:54:17,810 [AWT-EventQueue-0] cakraemasniaga.jdbc.project.ProjectJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@15b1746d: 
+select
+	exists(
+	select
+		*
+	from
+		project
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:54:17,810 [AWT-EventQueue-0] cakraemasniaga.jdbc.budget.BudgetJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@742ad9d2: 
+select
+	exists(
+	select
+		*
+	from
+		budget
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:54:17,810 [AWT-EventQueue-0] cakraemasniaga.jdbc.classification.ClassificationJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@2049fb45: 
+select
+	exists(
+	select
+		*
+	from
+		classification
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:54:17,810 [AWT-EventQueue-0] cakraemasniaga.jdbc.paymentfunction.PaymentFunctionJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@3093cf3d: 
+select
+	exists(
+	select
+		*
+	from
+		payment_function
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:54:17,810 [AWT-EventQueue-0] cakraemasniaga.jdbc.payment.PaymentJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@1377c762: 
+select
+	exists(
+	select
+		*
+	from
+		payment
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:54:17,810 [AWT-EventQueue-0] cakraemasniaga.jdbc.bank.BankJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@485b01a4: 
+select
+	exists(
+	select
+		*
+	from
+		bank
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:54:17,810 [AWT-EventQueue-0] cakraemasniaga.jdbc.employee.EmployeeJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@40145d03: 
+select
+	exists(
+	select
+		*
+	from
+		employee
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:54:17,810 [AWT-EventQueue-0] cakraemasniaga.jdbc.pv.PVJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@61ec95b1: 
+select
+	exists(
+	select
+		*
+	from
+		request) exist;
+DEBUG   2022-05-28 12:54:17,810 [AWT-EventQueue-0] cakraemasniaga.jdbc.salary.SalaryJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@15b0603: 
+select
+	exists(
+	select
+		*
+	from
+		transaction_salary) exist;
+DEBUG   2022-05-28 12:54:17,826 [AWT-EventQueue-0] cakraemasniaga.jdbc.warehouse.WarehouseJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@22f37097: 
+select
+	exists(
+	select
+		*
+	from
+		warehouse
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:54:17,826 [AWT-EventQueue-0] cakraemasniaga.jdbc.category.CategoryJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@35d38b3e: 
+select
+	exists(
+	select
+		*
+	from
+		category
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:54:17,826 [AWT-EventQueue-0] cakraemasniaga.jdbc.item.ItemJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@12f21631: 
+select
+	exists(
+	select
+		*
+	from
+		item
+	where
+		status = 'ON') exist;
+DEBUG   2022-05-28 12:54:17,826 [AWT-EventQueue-0] cakraemasniaga.jdbc.stock.StockJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@58ce9ca3: 
+select
+	exists(
+	select
+		*
+	from
+		stock
+	where
+		status = 'IN') exist;
+DEBUG   2022-05-28 12:54:17,826 [AWT-EventQueue-0] cakraemasniaga.jdbc.stock.StockJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@141de0b3: 
+select
+	exists(
+	select
+		*
+	from
+		stock) exist;
+DEBUG   2022-05-28 12:54:17,826 [AWT-EventQueue-0] cakraemasniaga.jdbc.project.ProjectJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@227304a9: 
+select
+	exists(
+	select
+		*
+	from
+		project
+	where
+		status = 'ON') exist;
+INFO    2022-05-28 12:56:03,375 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@738120d7: 
+select
+	*
+from
+	user
+where
+	username = '1'
+	and status = 'ON';
+INFO    2022-05-28 12:56:04,674 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@5b6f308: 
+select
+	*
+from
+	user
+where
+	username = '1'
+	and status = 'ON';
+ERROR   2022-05-28 12:57:01,383 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@5d889ca1: 
+select
+	*
+from
+	user
+where
+	username = '1'
+	and status = 'ON';
+ERROR   2022-05-28 12:57:02,784 [AWT-EventQueue-0] cakraemasniaga.jdbc.login.UserJdbcImplement  - com.mysql.jdbc.JDBC4PreparedStatement@ce25360: 
+select
+	*
+from
+	user
+where
+	username = '1'
+	and status = 'ON';
+ERROR   2022-05-28 18:36:12,195 [AWT-EventQueue-0] cakraemasniaga.view.stock.FormStock  - Current Working Directory is = C:\Users\Khanza\Documents\CakraEmasNiaga
+ERROR   2022-05-28 18:36:14,184 [AWT-EventQueue-0] cakraemasniaga.view.stock.FormStock  - Finish
